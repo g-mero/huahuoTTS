@@ -12,8 +12,8 @@ export default function Nav() {
         <li class={`border-b-2 ${active('/')} mx-1.5 sm:mx-6`}>
           <a href="/">首页</a>
         </li>
-        <li class={`border-b-2 ${active('/about')} mx-1.5 sm:mx-6`}>
-          <a href="/about">对话</a>
+        <li class={`border-b-2 ${active('/conversation')} mx-1.5 sm:mx-6`}>
+          <a href="/conversation">对话</a>
         </li>
       </ul>
     </nav>
